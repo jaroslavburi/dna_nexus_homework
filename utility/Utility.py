@@ -9,7 +9,7 @@ class Utility:
     def get_args(argv):
         path_to_file = ''
         frag_length = ''
-        output_path = ''
+
         try:
             opts, args = getopt.getopt(argv,"hp:l:")
         except getopt.GetoptError:
@@ -27,7 +27,7 @@ class Utility:
             elif opt in ("-l"): #TODO check int
                 frag_length = arg
 
-        return path_to_file, frag_length, output_path
+        return path_to_file, frag_length
 
     def read_file(path):
         with open(path, 'r') as myfile:
