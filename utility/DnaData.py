@@ -1,4 +1,3 @@
-
 import sys, getopt
 
 class DnaData:

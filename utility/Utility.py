@@ -3,7 +3,7 @@ import sys, getopt
 
 class Utility:
 
-    HELP_MESSAGE = 'test.py -p <path_to_file> -l <frag_length>'
+    HELP_MESSAGE = 'dna_converter.py -p <path_to_file> -l <frag_length>'
 
     @staticmethod
     def get_args(argv):
